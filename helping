@@ -1,0 +1,114 @@
+<div id="hero">
+  <h1>BESPOKE EVENT <br>
+    PLANNING & DESIGNING</h1>
+  <p> <span class="input"></span> </p>
+</div>
+
+
+
+<!-- our  Gallery hero  code  -->
+<div id="Gallery-hero">
+  <div id="hero-photo">
+    <h1> Our Gallery </h1>
+  </div>
+</div>
+<!-- service box code  -->
+
+<div id="gallery">
+  <!-- card 1 -->
+  <div class="card">
+    <img src="Image/front-gallery/family.jpg" class="card-image" alt="family photo">
+    <div class="card-body">
+      <h1 class="card-title"> Family</h1>
+      <p class="card-sub-title">Family photos </p>
+      <p class="card-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, asperiores quas quo
+        adipisci eveniet delectus temporibus quam voluptates sapiente at distinctio dolore dicta amet facilis!</p>
+      <button class="card-btn"> book tour</button>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+  <div class="card">
+    <img src="Image/front-gallery/engagment-front.jpg " class="card-image" alt="card photo">
+    <div class="card-body">
+      <h1 class="card-title">Engagement </h1>
+      <p class="card-sub-title">Engagement Photos </p>
+      <p class="card-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, asperiores quas quo
+        adipisci eveniet delectus temporibus quam voluptates sapiente at distinctio dolore dicta amet facilis!</p>
+      <button class="card-btn"> book tour</button>
+    </div>
+  </div>
+  <!-- card 3 -->
+  <div class="card">
+    <img src="Image/front-gallery/birthday-front.jpg" class="card-image" alt="Birthday photo">
+    <div class="card-body">
+      <h1 class="card-title"> Birthday</h1>
+      <p class="card-sub-title">Birthday photos</p>
+      <p class="card-info"> Round of applause. It's officially your birthday. You deserve all the praise for completing another full trip around the sun. When you're gearing up to celebrate your big day!</p>
+      <button  class="card-btn"> More-Pic</button>
+    </div>
+  </div>
+  <!-- card 4 -->
+  <div class="card">
+    <img src="Image/front-gallery/design.jpg " class="card-image" alt="card photo">
+    <div class="card-body">
+      <h1 class="card-title"> Design</h1>
+      <p class="card-sub-title">Event Designing </p>
+      <p class="card-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, asperiores quas quo
+        adipisci eveniet delectus temporibus quam voluptates sapiente at distinctio dolore dicta amet facilis!</p>
+      <button class="card-btn"> More-Pic</button>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+<!-- service section code here  -->
+
+<div class="service-container">
+<div class="service-wrapper">
+  <div class="service">
+    <h1>Our Srvice</h1>
+    <div class="servise-cards">
+      <div class="servise-card">
+        <i class="fa-brands fa-chromecast"></i>
+        <h2>Photo Shoot</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+      <div class="servise-card">
+        <i class="fa-solid fa-layer-group"></i>
+        <h2>Event Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+      <div class="servise-card">
+        <i class="fa-solid fa-user-group"></i>
+        <h2>Food Service</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+      <div class="servise-card">
+        <i class="fa-solid fa-desktop"></i>
+        <h2> Event planning</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+      <div class="servise-card">
+        <i class="fa-solid fa-camera"></i>
+        <h2>Enertrnment</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+      <div class="servise-card">
+        <i class="fa-solid fa-gear"></i>
+        <h2>Other</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</div>

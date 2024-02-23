@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event planner</title>
+  <!-- css file link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="responsive.css"> -->
+  <!-- google font link  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- font awosome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- auto type js likn  -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+  <!-- header section code  -->
+  <div class="main">
+
+    <nav class="nav-bar">
+      <!-- <div class="logo">
+
+      </div> -->
+        <img src="Image/front-gallery/png1.png" alt="logo" class="logo"></a>
+       
+        <ul id="menu-links" >
+
+
+          <li>
+            
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#service-container">Service</a>
+            
+          </li>
+          <li>
+          <a href="gallery.html">Gallery</a>
+
+        </li>
+        <li>
+          <a href="#about">About</a>
+
+        </li>
+        <li>
+
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <img src="Image/nav-bar/menu.png" alt="menu icon" class="menu-icon" onclick="toggelmenu()">
+    
+    </nav>
+
+    <!-- it is hero section  -->
+    <div class="hero-section">
+      <div class="left">
+        <h1> In Your City best <span>Event</span> Planner!<span class="input"></span> </h1>
+        <p>Elevate your events from ordinary to extraordinary with our expert touch. Crafting unforgettable experiences,
+          one moment at a time. Welcome to a world where your vision becomes an unforgettable reality!</p>
+        <button>Explore-More</button>
+      </div>
+      <!-- hero section right part  -->
+      <div class="right">
+        
+        <!-- <img src="https://media.istockphoto.com/id/1307831372/photo/browse-high-resolution-stock-images-of-lord-ganesha.jpg?s=1024x1024&w=is&k=20&c=phm1T3hpDsccdi6200xItZRryELBdovaNsO7-3c-bxY=" alt=""> -->
+
+          <img src="Image/front-gallery/ganesh-37.png" alt="image">
+        
+      </div>
+    </div>
+    <span>
+      <h1 class="gal-h1">Our GAllery</h1>
+    </span>
+
+    <!-- gallery section  -->
+    <div id="gallery">
+      <!-- card 1 -->
+      <div class="card">
+        <img src="Image/front-gallery/family.jpg" class="card-image" alt="family photo">
+        <div class="card-body">
+          <h1 class="card-title"> Party</h1>
+          <p class="card-sub-title">Party photos </p>
+          <p class="card-info"> Lost in laughter, found in friendship, and dancing through the night. A picture-perfect
+            moment frozen in time, capturing the essence of pure joy and celebration. Here's to the memories we'll
+            cherish forever!</p>
+          <button class="card-btn"> book tour</button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+        <img src="Image/front-gallery/engagment-front.jpg " class="card-image" alt="card photo">
+        <div class="card-body">
+          <h1 class="card-title">Engagement </h1>
+          <p class="card-sub-title">Engagement Photos </p>
+          <p class="card-info"> Two hearts, one love, and a lifetime of promises captured in this beautiful moment.
+            Here's to the beginning of forever, where every smile speaks of endless possibilities. Love's journey starts
+            with a single 'yes'!</p>
+          <button class="card-btn"> book tour</button>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card">
+        <img src="Image/front-gallery/birthday-front.jpg" class="card-image" alt="Birthday photo">
+        <div class="card-body">
+          <h1 class="card-title"> Birthday</h1>
+          <p class="card-sub-title">Birthday photos</p>
+          <p class="card-info"> Another year older, another reason to celebrate! Here's to a day filled with laughter,
+            love, and unforgettable memories. Cheers to you, the birthday star, shining brighter with every passing
+            year!</p>
+          <button class="card-btn"> More-Pic</button>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="card">
+        <img src="Image/front-gallery/design.jpg " class="card-image" alt="card photo">
+        <div class="card-body">
+          <h1 class="card-title"> Weding</h1>
+          <p class="card-sub-title">Event Designing </p>
+          <p class="card-info"> Joined together in love's embrace, hand in hand, heart to heart, beginning a journey as
+            one. Today marks the start of our forever, where love blooms in every step down the aisle. Here's to the
+            magic of this moment, the promise of a lifetime together.!</p>
+          <button class="card-btn"> More-Pic</button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- service code here  -->
+
+    <div id="service-container">
+      <h1 class="heading8">Our Srvice</h1>
+      <!-- service card 1 -->
+
+      <div id="servise-cards1">
+        <div class="servise-card">
+          <i class="fa-solid fa-camera"></i>
+          <h2>Photo Shoot</h2>
+          <p>Capturing life's most precious moments with creativity and passion. Let our lens tell your story, turning
+            fleeting moments into everlasting memories!</p>
+
+        </div>
+        <!-- service card 2 -->
+
+        <div class="servise-card">
+          <i class="fa-solid fa-layer-group"></i>
+          <h2>Event Design</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam
+            natus ullam fugit enim.</p>
+
+        </div>
+        <!-- service card 3 -->
+
+        <div class="servise-card">
+          <i class="fa-solid fa-user-group"></i>
+          <h2>Food Service</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam
+            natus ullam fugit enim.</p>
+
+        </div>
+        <!-- service card 4-->
+
+        <div class="servise-card">
+          <i class="fa-solid fa-desktop"></i>
+          <h2> Event planning</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam
+            natus ullam fugit enim.</p>
+
+        </div>
+        <!--         
+        <div class="servise-card">
+          <i class="fa-solid fa-camera"></i>
+          <h2>Enertrnment</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+        
+        </div>
+        <div class="servise-card">
+          <i class="fa-solid fa-gear"></i>
+          <h2>Other</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis non eos iure cum in perferendis aperiam natus ullam fugit enim.</p>
+        
+        </div>  -->
+
+      </div>
+    </div>
+
+
+    <!-- login page  -->
+    <div id="contact" class="login-page">
+      <form action="php.php" method="post">
+
+        <label for="Name">Name</label>
+        <div>
+          <input type="text" name="name" placeholder="Enter Your Full Name">
+        </div>
+
+
+        <div class="gender">
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" value="m">Male
+          <input type="radio" name="gender" value="f">Female
+          <input type="radio" name="gender" value="o">other
+        </div>
+
+        <label for="Email">E-mail</label>
+        <div>
+          <input type="email" name="email" placeholder="Enter Your E-mail ">
+        </div>
+
+        <label for="contact"> Phone-No</label>
+        <div>
+          <input type="text" name="number" id="number" placeholder="Enter Your Mobile Number">
+        </div>
+        <label for="password">password</label>
+        <div>
+          <input type="password" name="password" placeholder="Enter Your Password ">
+        </div>
+        <button class="fbtn">Submit</button>
+
+
+      </form>
+    </div>
+
+
+
+    <!-- it footer page 
+     -->
+
+    <div id="about">
+      <div id="page15">
+        <div id="left15">
+          <div class="leftul">
+            <ul>
+              <li>
+                <a href="#contact"> CONTACT</a>
+              </li>
+              <li>
+                <!-- <a href="#contact"> Contact</a> -->
+
+              </li>
+              <li>
+                <a href="#"> <a href="#"><i class='bx bxl-instagram'></i> Instagram</a>
+
+              </li>
+              <li>
+                <a href="#"> <i class='bx bxl-facebook'></i> Facebook</a>
+
+              </li>
+
+
+
+            </ul>
+
+            <div class="leftul2">
+              <ul>
+                <li>
+                  <!-- <a href="#contact"> CONTACT</a> -->
+
+                </li>
+                <li>
+                  <a href="#"> PRIVACY POLICY</a>
+
+                </li>
+                <li>
+                  <a href="#">TERMS </a>
+
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+          <span class="page15span"> © 2024 BY S.B Planner</span>
+
+        </div>
+
+        <div id="right15">
+
+          <h3>
+            Feedback
+          </h3>
+          <div class="input1">
+            <!-- <textarea name="feedback" id="feed" cols="30" rows="10"></textarea> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
